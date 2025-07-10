@@ -1,0 +1,20 @@
+# Ignore virtual environment
+cv_env/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore log/output files
+*.log
+*.csv
+*.mp4
+output/
+logs/
+
+# Ignore model weights
+*.pt
+models/
+
+# VSCode settings (optional)
+.vscode/
