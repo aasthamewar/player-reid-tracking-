@@ -64,12 +64,31 @@ pip install opencv-python torch torchvision torchaudio ultralytics numpy filterp
 ```
 python src/main.py
 ```
-You will see:()*
+You will see:
 
-A live window showing detected & tracked players
+->A live window showing detected & tracked players
 
-ESC to quit
+->ESC to quit
 
-Output video saved to /output
+->Output video saved to /output
 
-CSV saved to /logs
+->CSV saved to /logs
+
+
+📦 Model Info
+
+->Custom YOLOv11 trained on sports datasets
+
+->Model must be placed in models/yolov11.pt
+
+->If not available, contact the author
+
+🧩 Techniques Used
+
+->Detection: YOLOv11 via ultralytics API
+
+->Tracking: Kalman Filter with motion estimation
+
+->Re-ID: Color histogram (HSV) with histogram correlation
+
+->Matching: IoU threshold + histogram similarity fallback
