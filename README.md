@@ -85,7 +85,7 @@ You will see:
 
 🧩 Techniques Used
 
-->Detection: YOLOv11 via ultralytics API
+->Detection: YOLOv11 via ultralytics 
 
 ->Tracking: Kalman Filter with motion estimation
 
